@@ -3,13 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./modules/search-app/App";
 import Counter from "./modules/simple-counter/Counter";
+import Api from "./modules/api-request/Api";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <Counter />
+    {/* <App />
+    <Counter /> */}
+    <Api />
   </React.StrictMode>
 );
 
