@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logoSvg from "../../assets/books-logo.svg";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="logo">Logo</div>
+      <div className="logo">
+        <img src={logoSvg} alt="logo" />
+      </div>
       <nav>
         <ul>
           <li>
