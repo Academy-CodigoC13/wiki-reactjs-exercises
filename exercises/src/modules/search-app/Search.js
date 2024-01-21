@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import "./App.css";
+import "./Search.css";
 
-function App() {
+function Search() {
   const list = [
     "Banana",
     "Apple",
@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="Search">
       <div>
         Search: <input name="query" type="text" onChange={handleSearch} />
       </div>
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default Search;
